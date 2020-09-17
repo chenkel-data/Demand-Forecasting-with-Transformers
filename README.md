@@ -13,3 +13,5 @@ The model seems to follow the patterns but only for times with large shares the 
 
 ![b](https://github.com/chenkel-data/Time-Series-Forecasting-with-Transformers/blob/master/demand2.png)
 
+
+![c](https://github.com/chenkel-data/Time-Series-Forecasting-with-Transformers/blob/master/demand3.png)
