@@ -6,10 +6,10 @@ Inspired by this [paper](https://arxiv.org/pdf/2001.08317.pdf), we try to adapt 
 
 We see that this model actually does a very good job at least on this kind of data. It is very intersting to se how well this model can capture also long future horizons!
 
-![a]https://github.com/chenkel-data/Time-Series-Forecasting-with-Transformers/blob/master/demand1.png)
+![a](https://github.com/chenkel-data/Time-Series-Forecasting-with-Transformers/blob/master/demand1.png)
 
 
 The model seems to follow the patterns but only for times with large shares the model does not perform well. But those extreme events are handled differently.
 
-![b]https://github.com/chenkel-data/Time-Series-Forecasting-with-Transformers/blob/master/demand2.png)
+![b](https://github.com/chenkel-data/Time-Series-Forecasting-with-Transformers/blob/master/demand2.png)
 
