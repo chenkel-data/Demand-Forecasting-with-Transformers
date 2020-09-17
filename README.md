@@ -9,9 +9,17 @@ We see that this model actually does a very good job at least on this kind of da
 ![a](https://github.com/chenkel-data/Time-Series-Forecasting-with-Transformers/blob/master/demand1.png)
 
 
-The model seems to follow the patterns but only for times with large shares the model does not perform well. But those extreme events are handled differently.
+The model seems to follow the patterns but only for times with large shares the model does not perform well.
 
 ![b](https://github.com/chenkel-data/Time-Series-Forecasting-with-Transformers/blob/master/demand2.png)
 
+Making the future horizon smaller:
 
 ![c](https://github.com/chenkel-data/Time-Series-Forecasting-with-Transformers/blob/master/demand3.png)
+
+
+## Conclusion
+
+Transformers seem to have some power for multistep forecasting. In real world one might want to forecast the demand for the next few days. So smoothing on a daily basis might yield better results.
+
+We see that extreme events are always underestimated. This is typical where you have extreme events. Forecasting extreme events is handled differently. In a next step we can test how a Autoencoder performs with Transaformers in case of extreme events.
