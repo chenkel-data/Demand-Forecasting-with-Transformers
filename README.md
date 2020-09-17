@@ -22,5 +22,5 @@ Making the future horizon smaller:
 
 Transformers seem to have some power for multistep forecasting. In real world one might want to forecast the demand for the next few days. So smoothing on a daily basis might yield better results.
 
-We see that extreme events are always underestimated. This is typical where you havee such events. 
-In a next step we could test how an Autoencoder performs with Transaformers in case of forecasting extreme events.
+The peak times of large demand during the day are always underestimated. <!---We have done a simple training set up and no further tuning of parameters.--->
+This is typical where you have extreme events. For those peak times we could apply an autoencoder with Transformers.
