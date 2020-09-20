@@ -25,4 +25,4 @@ Transformers seem to have some power for multistep forecasting. In real world on
 The peak times of large demand during the day are always underestimated. This is typical where you have extreme events. For those peak times we could apply an autoencoder with Transformers.
 
 
-<!---We have done a simple training set up and no further tuning of parameters.--->
+<!---We hggave done a simple training set up and no further tuning of parameters.--->
